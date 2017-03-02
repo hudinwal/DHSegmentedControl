@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* DHSegmentedControl_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHSegmentedControl_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E0FC0DD6C373D9EA03CFF74 /* DHSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHSegmentedControl.podspec; path = ../DHSegmentedControl.podspec; sourceTree = "<group>"; };
+		6E0FC0DD6C373D9EA03CFF74 /* DHSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHSegmentedControl.podspec; path = ../DHSegmentedControl.podspec; sourceTree = "<group>"; };
 		72809374E72E259ECD11E57A /* Pods_DHSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4FA1406A75A2DCEB088C4A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AC33A3114775102C231035AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A4FA1406A75A2DCEB088C4A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AC33A3114775102C231035AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C33D91B5FEEE5BD10158D94B /* Pods-DHSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHSegmentedControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHSegmentedControl_Tests/Pods-DHSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z3QQ492P6Z;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z3QQ492P6Z;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -443,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -496,6 +499,8 @@
 			baseConfigurationReference = 5219056B506E84F9FB59212D /* Pods-DHSegmentedControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
 				INFOPLIST_FILE = DHSegmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +515,8 @@
 			baseConfigurationReference = 4753A84A7061AC3FCD32A669 /* Pods-DHSegmentedControl_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
 				INFOPLIST_FILE = DHSegmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24A953ADE3766B0E599D16A7 /* Pods-DHSegmentedControl_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C33D91B5FEEE5BD10158D94B /* Pods-DHSegmentedControl_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

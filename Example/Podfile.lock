@@ -1,0 +1,16 @@
+PODS:
+  - DHSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - DHSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  DHSegmentedControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DHSegmentedControl: 3e46c734d86d5b3a9bd7184e6f1dd8ba94da845c
+
+PODFILE CHECKSUM: 96b2a2c2fd2f62273b80abe2b8c2ad4cec06433f
+
+COCOAPODS: 1.2.0

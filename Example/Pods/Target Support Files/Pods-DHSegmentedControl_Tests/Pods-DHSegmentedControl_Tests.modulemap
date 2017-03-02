@@ -1,0 +1,6 @@
+framework module Pods_DHSegmentedControl_Tests {
+  umbrella header "Pods-DHSegmentedControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
