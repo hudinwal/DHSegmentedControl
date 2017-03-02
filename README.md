@@ -1,6 +1,6 @@
 # DHSegmentedControl
 
-[![CI Status](http://img.shields.io/travis/d_hudinwal/DHSegmentedControl.svg?style=flat)](https://travis-ci.org/d_hudinwal/DHSegmentedControl)
+
 [![Version](https://img.shields.io/cocoapods/v/DHSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DHSegmentedControl)
 [![License](https://img.shields.io/cocoapods/l/DHSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DHSegmentedControl)
 [![Platform](https://img.shields.io/cocoapods/p/DHSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DHSegmentedControl)
